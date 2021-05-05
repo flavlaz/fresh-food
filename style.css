@@ -132,7 +132,7 @@ img {
 
 /*=== LAYOUT ===*/
 .bd-container {
-    max-width: 960px;
+    max-width: 1024px;
     width: calc(100% - 2rem);
     margin-left: var(--mb-2);
     margin-right: var(--mb-2);
@@ -453,7 +453,7 @@ img {
         text-align: initial;
     }
     .about__img, .app__img {
-        width: 380px;
+        width: 500px;
         order: -1;
     }
     .contact__container {
@@ -497,7 +497,6 @@ img {
 
     .home__container {
         height: 100vh;
-        justify-items: center;
     }
 
     .services__container,
