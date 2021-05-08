@@ -7,7 +7,7 @@ const toggleMenu = (toggleId, navId) => {
 
     if(toggle && nav){
         toggle.addEventListener('click', ()=>{
-            nav.classList.add('show-menu');
+            nav.classList.toggle('show-menu');
         })
     }
 }
