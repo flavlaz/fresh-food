@@ -411,6 +411,10 @@ img {
     font-size: var(--small-font-size);
     margin: .25rem 0 var(--mb-3);
 }
+.footer__socials__wrapper {
+    position: absolute;
+    bottom: 0;
+}
 .footer__social {
     font-size: 1.5rem;
     color: var(--title-color);
@@ -426,6 +430,9 @@ img {
 .footer__link {
     display: inline-block;
     color: var(--text-color);
+    margin-bottom: var(--mb-1);
+}
+.footer__adrs {
     margin-bottom: var(--mb-1);
 }
 .footer__link:hover{
